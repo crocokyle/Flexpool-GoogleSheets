@@ -46,4 +46,6 @@ You have two options:
 10. Leave all of the defaults and click `Save`
 
 <hr>
-If you have any questions, feel free to add me on Discord: `CrocoKyle#8744`
+
+
+If you have any questions, feel free to add me on Discord: `CrocoKyle#8744` or [create an issue](https://github.com/crocokyle/Flexpool-GoogleSheets/issues)
