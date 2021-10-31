@@ -16,8 +16,8 @@ It then updates specified cells with these values.
 ## Instructions
 You have two options:
 
-- **Option 1** - (Easiest) Make a copy of the existing Google Sheet
-  - This lets you use the existing template to calculate your ROI
+- **Option 1** - (Easiest) Make a copy of the premade Google Sheet
+  - This lets you use the premade template to calculate your ROI
 - **Option 2** - Copy `Code.gs` to your own sheet and modify the cells that get updated.
   - This lets you customize your own Google Sheet and update it with the Flexpool parameters
 
