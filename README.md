@@ -44,3 +44,6 @@ You have two options:
 8. Navigate to `Triggers` from the left pane (Looks like a clock icon)
 9. Click `+ Add Trigger`
 10. Leave all of the defaults and click `Save`
+
+<hr>
+If you have any questions, feel free to add me on Discord: `CrocoKyle#8744`
