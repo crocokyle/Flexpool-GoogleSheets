@@ -37,9 +37,10 @@ You have two options:
 1. Create a new Google Sheet
 2. Set up a template that you want to use and note the cells you want to update with `unpaidETH`, `unpaidCurrency`, `paidETH`, `paidCurrency`
 3. Click `Tools` > `Script editor`
-4. Update `lines 3-5` with your `address`, `currency` and optionally `soldETH`
-5. Update `lines 26-29` with the row and column of the cells you want to update
-6. Save the script
-7. Navigate to `Triggers` from the left pane (Looks like a clock icon)
-8. Click `+ Add Trigger`
-9. Leave all of the defaults and click `Save`
+4. Copy the code from [`Code.gs`](https://github.com/crocokyle/Flexpool-GoogleSheets/blob/main/Code.gs) to your Google Sheet
+5. Update `lines 3-5` with your `address`, `currency` and optionally `soldETH`
+6. Update `lines 26-29` with the row and column of the cells you want to update
+7. Save the script
+8. Navigate to `Triggers` from the left pane (Looks like a clock icon)
+9. Click `+ Add Trigger`
+10. Leave all of the defaults and click `Save`
