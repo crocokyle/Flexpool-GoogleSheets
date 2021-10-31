@@ -48,4 +48,4 @@ You have two options:
 <hr>
 
 
-If you have any questions, feel free to add me on Discord: `CrocoKyle#8744` or [create an issue](https://github.com/crocokyle/Flexpool-GoogleSheets/issues)
+If you have any questions, feel free to add me on Discord [CrocoKyle#8744](https://discord.com/users/543999763117244428) or [create an issue](https://github.com/crocokyle/Flexpool-GoogleSheets/issues)
