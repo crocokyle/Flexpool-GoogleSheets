@@ -1,3 +1,5 @@
+<img src="screenshot.png">
+
 ## Description
 
 Flexpool-GoogleSheets is a Google Sheets script that grabs four pieces of data from Flexpool's API: 
