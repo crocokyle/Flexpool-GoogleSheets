@@ -4,6 +4,9 @@ function main() {
   var currency = "usd" // See available currencies below - Currency to convert ETH to
   const soldETH = 0 // Amount subtracted from Paid ETH if you want to exclude it
 
+  // Set currency heading to the user's preference
+  updateCell(2, 4, currency.toUpperCase())
+
   // Get the unpaid balances
   unpaidETH = getFlexpoolUnpaid(address)
   unpaidCurrency = ethToCurrency(unpaidETH, currency)
@@ -185,3 +188,4 @@ function fetchFlexpoolPageTotal(address, pageNumber) {
     Logger.log(json.error)
   }
 }
+
