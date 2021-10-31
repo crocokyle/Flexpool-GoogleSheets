@@ -2,6 +2,8 @@
 
 ## Description
 
+The premade Google Sheet is used to compare hardware costs with profit and display your % Paid and Net Profit.
+
 Flexpool-GoogleSheets is a Google Sheets script that grabs four pieces of data from Flexpool's API: 
 ```python
 unpaidETH        # Your pending ETH balance that hasn't been paid to your wallet
@@ -15,9 +17,11 @@ It then updates specified cells with these values.
 You have two options:
 
 - **Option 1** - (Easiest) Make a copy of the existing Google Sheet
+  - This lets you use the existing template to calculate your ROI
 - **Option 2** - Copy `Code.gs` to your own sheet and modify the cells that get updated.
+  - This lets you customize your own Google Sheet and update it with the Flexpool parameters
 
-### Option 1 - Make a copy of the existing Google Sheet
+### Option 1 - Make a copy of the premade Google Sheet
 
 1. [Open the Google Sheet](https://docs.google.com/spreadsheets/d/1FglDMGFwcljRGlY7Z8ZgFRPMwkygtJFVS_IFx3nCuIg/edit?usp=sharing)
 2. Click `File` > `Make a copy`
