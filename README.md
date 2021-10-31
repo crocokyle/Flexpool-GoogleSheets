@@ -1,2 +1,39 @@
-# Flexpool-GoogleSheets
-Google sheets script to work with the Flexpool API.
+## Description
+
+Flexpool-GoogleSheets is a Google Sheets script that grabs four pieces of data from Flexpool's API: 
+```python
+unpaidETH        # Your pending ETH balance that hasn't been paid to your wallet
+unpaidCurrency   # unpaidETH converted to your choice of currency
+paidETH          # A total of all payments made to your wallet from Flexpool
+paidCurrency     # paidETH converted to your choice of currency
+```
+It then updates specified cells with these values.
+
+## Instructions
+You have two options:
+
+- **Option 1** - (Easiest) Make a copy of the existing Google Sheet
+- **Option 2** - Copy `Code.gs` to your own sheet and modify the cells that get updated.
+
+### Option 1 - Make a copy of the existing Google Sheet
+
+1. [Open the Google Sheet](https://docs.google.com/spreadsheets/d/1FglDMGFwcljRGlY7Z8ZgFRPMwkygtJFVS_IFx3nCuIg/edit?usp=sharing)
+2. Click `File` > `Make a copy`
+3. With the new sheet open, click `Tools` > `Script editor`
+4. Update `lines 3, 4, and 5` with your `address`, `currency` and optionally `soldETH`
+5. Save the script
+6. Navigate to `Triggers` from the left pane (Looks like a clock icon)
+7. Click `+ Add Trigger`
+8. Leave all of the defaults and click `Save`
+
+### Option 2 - Use your own sheet
+
+1. Create a new Google Sheet
+2. Set up a template that you want to use and note the cells you want to update with `unpaidETH`, `unpaidCurrency`, `paidETH`, `paidCurrency`
+3. Click `Tools` > `Script editor`
+4. Update `lines 3-5` with your `address`, `currency` and optionally `soldETH`
+5. Update `lines 26-29` with the row and column of the cells you want to update
+6. Save the script
+7. Navigate to `Triggers` from the left pane (Looks like a clock icon)
+8. Click `+ Add Trigger`
+9. Leave all of the defaults and click `Save`
